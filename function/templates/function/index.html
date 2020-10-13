@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+
+<body>
+    <div class="content">
+        <div class="nomal">
+            <!-- <div class="box" id="courseBefore">
+                <div class="logingBut">我是普通管理员</div>
+            </div> -->
+            <div class="box" id="courseAfter_1">
+                <a href="login"><button type="button" class="logingBut">普通管理员登录</button></a>
+            </div>
+        </div>
+        <div class="super">
+            <!-- <div class="box" id="courseBefore">
+                <div class="logingBut">我是超级管理员</div>
+            </div> -->
+            <div class="box" id="courseAfter_2">
+                <a href="admin"><button type="button" class="logingBut">超级管理员登录</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script>
+        var b1 = document.getElementById('courseBefore');
+        var b2 = document.getElementById('courseAfter');
+        b1.onmouseover = function () {
+            b1.style.transform = "rotateY(180deg)";
+            b2.style.transform = "rotateY(0deg)";
+        }
+        b2.onmouseout = function () {
+            b2.style.transform = "rotateY(-180deg)";
+            b1.style.transform = "rotateY(0deg)";
+        }
+    </script> -->
+
+</body>
+
+</html>

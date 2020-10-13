@@ -1,0 +1,57 @@
+body {
+    background: url('images/欢迎1.png') no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100%;
+}
+
+body .content {
+    width: 42%;
+    height: 30%;
+    position: fixed;
+    background: #0f1a1494;
+    left: 29%;
+    padding: 5% 1%;
+    margin-top: 6%;
+    border-radius: 7px;
+}
+
+body .logingBut {
+    background: #38a28a;
+    border: none;
+    padding: 12px 0px;
+    color: #edefee;
+    border-radius: 2px;
+    width: 330px;
+    margin-top: 30px;
+} 
+
+/* .nomal, .super {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    -webkit-perspective: 1500;
+    -moz-perspective: 1500;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    transition: all 1s;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#courseAfter {
+    transform: rotateY(-180deg);
+}  */

@@ -1,0 +1,30 @@
+body .Hui-aside {
+    background-color: #4a5259;
+    color: #fff;
+}
+
+.Hui-aside a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Hui-aside li {
+    list-style: none;
+}
+
+.Hui-aside #side-menu {
+    margin: 50px 0 0 -22px;
+}
+
+.Hui-aside #side-menu li {
+    margin-left: 43px;
+    margin-top: 10px;
+}
+
+.Hui-aside #side-menu .last {
+    margin-bottom: 25px;
+}
+
+.Hui-aside .nav-second-level li {
+    font-size: 14px;
+}
