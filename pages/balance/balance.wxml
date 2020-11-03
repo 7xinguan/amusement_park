@@ -1,0 +1,34 @@
+<!--pages/balance/balance.wxml-->
+<view class='totalMoney'>
+<text>今日消费（元）</text>
+<view>200.00</view>
+</view>  
+
+<view class='list'>
+<view class='listItem'>
+<label>鬼屋1</label>
+<view>40.00</view>
+<image src='../../assets/icons/per_header_ic_more.png'></image>
+</view>
+<view class='listItem'>
+<label>鬼屋2</label>
+<view>40.00</view>
+<image src='../../assets/icons/per_header_ic_more.png'></image>
+</view>
+<view class='listItem'>
+<label>鬼屋3</label>
+<view>40.00</view>
+<image src='../../assets/icons/per_header_ic_more.png'></image>
+</view>
+<view class='listItem'>
+<label>鬼屋4</label>
+<view>40.00</view>
+<image src='../../assets/icons/per_header_ic_more.png'></image>
+</view>
+<view class='listItem'>
+<label>鬼屋5</label>
+<view>40.00</view>
+<image src='../../assets/icons/per_header_ic_more.png'></image>
+</view>
+
+</view>
